@@ -41,22 +41,22 @@
 
 /** The name of the database for WordPress */
 
-define( 'DB_NAME', "wp" );
+define( 'DB_NAME', 'bitnami_wordpress' );
 
 
 /** MySQL database username */
 
-define( 'DB_USER', "root" );
+define( 'DB_USER', 'bn_wordpress' );
 
 
 /** MySQL database password */
 
-define( 'DB_PASSWORD', "root" );
+define( 'DB_PASSWORD', '835729899844d6bc67e6c86022da95f2a76a2e2ba8b2e0e3a6ddc57bcd701b2f' );
 
 
 /** MySQL hostname */
 
-define( 'DB_HOST', "localhost" );
+define( 'DB_HOST', 'localhost:3306' );
 
 
 /** Database charset to use in creating database tables. */
@@ -91,21 +91,21 @@ define( 'DB_COLLATE', '' );
 
  */
 
-define( 'AUTH_KEY',         'XlU-*Rdd>Vj?pqYa=M6V+@n @{0thy&W?D7=q0Ta~Za6$IGua<_G%uvoa2RA2!F=' );
+define( 'AUTH_KEY',         '?05)jp_r]Db9>&b=Y[V`P38OzbIOb41vdbB|z}U9I,-uvEN.u3|_4d#e$7lYbXFv' );
 
-define( 'SECURE_AUTH_KEY',  'R}gu)U[VPesi:_my2X=t4ET(bqQMK][dkn!:gdk7-&B-8_[7G?AC``;k5]1T.s(O' );
+define( 'SECURE_AUTH_KEY',  'RHf9?bwI)LeU/Feu;jt;HgA%(>]OgdiY6BAj$H@ZBqc|yH55^iK+FBo{%{SRt/wc' );
 
-define( 'LOGGED_IN_KEY',    '(aCUrg;A>r^Ue6n~-a4I]jflEnvXv^]k0*Lc~7o|Z5DuVXWOob_mPf4gI##gPRxA' );
+define( 'LOGGED_IN_KEY',    ']rjD3Fb#-j@s=:a(!uwYnP~Ta<$c^LA9@yd-Atq7aT[1O&buA2rtT^rWD^tK:@e#' );
 
-define( 'NONCE_KEY',        '<XO#)dfE&!5/c0^x3UK!<0 FxcbAr&r/Uo$*!QBZz>BQN9J_CAm)n#($CmRb#F+L' );
+define( 'NONCE_KEY',        'wz8V<a:v;>#6<Lk[2gpcba>?.W&RoW?^|c]2i*CHawEN L%i:Zr2I0%_,}TI]bxy' );
 
-define( 'AUTH_SALT',        'Wy%Ka}9`._V;Ww)LQ>yTNpzrkBL:EE{Zs@s8 L(fpZH`giQ5rb.*m}@wN[0u~GiV' );
+define( 'AUTH_SALT',        '$O)!b}j>{q6fWV*:p^2I-P&wfKTZtC>lzeWs@WI{qh#N3fzw dp+L%X52xt/Y)s`' );
 
-define( 'SECURE_AUTH_SALT', 'hLE|E]pm8qU)1Dx-qX+WO){ue^^7733HSf($]MV:sY.@IOt/?jr{:=1Jisptj0 2' );
+define( 'SECURE_AUTH_SALT', 'Wf][G:eK]w*Nm)ATK/^Ee78*x12Ci.IzFyjY(H&b_,=b.rRHw0gT.cz6A6g!VE7E' );
 
-define( 'LOGGED_IN_SALT',   'mq>etG0UXpzk;:D}~k/]4I&s/G&u1gY7,LX3aAf^ ?c>%3-u (bE;8he)MBtO=V]' );
+define( 'LOGGED_IN_SALT',   '#pgCVolFR3Z NM5g~0 A.gpZRiFJ7|~zt:_twD{Awzg66~G|SFUm(GiC!a}=@`6,' );
 
-define( 'NONCE_SALT',       '%pr=v]e|qy[RzA@,XAij/*55Sal<PIS]Y3Por6$=K:IZ#__s1CxLk-:!M47nxjW,' );
+define( 'NONCE_SALT',       '`(lXOph~dIaVuz&Ptn>C UUFUuQ;C5~Yrf#NhpA)9bllW]vem13J1H#.%9a(0<cm' );
 
 
 /**#@-*/
@@ -170,8 +170,8 @@ if ( defined( 'WP_CLI' ) ) {
 	$_SERVER['HTTP_HOST'] = '127.0.0.1';
 }
 
-define( 'WP_HOME', 'http://localhost/interation1' );
-define( 'WP_SITEURL', 'http://localhost/interation1' );
+define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/' );
+define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/' );
 define( 'WP_AUTO_UPDATE_CORE', 'minor' );
 /* That's all, stop editing! Happy publishing. */
 
