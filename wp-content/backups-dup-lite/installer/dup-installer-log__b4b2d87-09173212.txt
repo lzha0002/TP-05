@@ -1,0 +1,1952 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 05:36:36
+* VERSION: 1.4.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.22                                |7.4.1
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-09-09 17:32:12
+WP VERSION__________: 5.8.1
+DUP VERSION_________: 1.4.2
+DB__________________: 10.3.31
+DB TABLES___________: 87
+DB ROWS_____________: 51,212
+DB FILE SIZE________: 81.59MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.1 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3
+DOC ROOT____________: "E:/MAMP/htdocs"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/MAMP/htdocs/20210901backup_[HASH]_20210909173212_archive.zip"
+SIZE________________: 286.7MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/MAMP/htdocs/20210901backup_[HASH]_20210909173212_archive.zip"
+SIZE________________: 286.7MBFile timestamp set to Current: 2021-09-09 17:39:38
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 05:39:38 - RUNTIME: 182.7295 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) [CODE:2|FILE:E:\MAMP\htdocs\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'user'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 05:45:51
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.24 -- Build Server: 10.3.31
+FILE SIZE:	dup-database__[HASH].sql (53.14MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[E:/MAMP/htdocs/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.24] is less than the build version [10.3.31].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	18
+RENAMED TABLES:	0
+QUERIES RAN:	805
+
+aus_co2: (59)
+aus_solar_installation: (243)
+solar_panel: (1192)
+worldwide_co2: (15694)
+wp_actionscheduler_actions: (39)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (107)
+wp_aioseo_notifications: (0)
+wp_aioseo_posts: (0)
+wp_ce4wp_contacts: (0)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_cp_calculated_fields_form_discount_codes: (0)
+wp_cp_calculated_fields_form_posts: (0)
+wp_cp_calculated_fields_form_revision: (55)
+wp_cp_calculated_fields_form_settings: (7)
+wp_duplicator_packages: (0)
+wp_frmt_form_entry: (0)
+wp_frmt_form_entry_meta: (0)
+wp_frmt_form_views: (0)
+wp_links: (0)
+wp_litespeed_url: (0)
+wp_litespeed_url_file: (0)
+wp_nf3_action_meta: (154)
+wp_nf3_actions: (7)
+wp_nf3_chunks: (0)
+wp_nf3_field_meta: (436)
+wp_nf3_fields: (14)
+wp_nf3_form_meta: (117)
+wp_nf3_forms: (2)
+wp_nf3_object_meta: (0)
+wp_nf3_objects: (0)
+wp_nf3_relationships: (0)
+wp_nf3_upgrades: (2)
+wp_ninja_table_items: (0)
+wp_ns_cloner_logs: (0)
+wp_options: (682)
+wp_postmeta: (14330)
+wp_posts: (2606)
+wp_snowball_articles: (0)
+wp_snowball_blocks: (0)
+wp_term_relationships: (10)
+wp_term_taxonomy: (4)
+wp_termmeta: (0)
+wp_terms: (4)
+wp_updraftcentral_site_temporary_keys: (0)
+wp_updraftcentral_sitemeta: (0)
+wp_updraftcentral_sites: (0)
+wp_updraftcentral_user_cron: (1)
+wp_usermeta: (39)
+wp_users: (1)
+wp_wp_phpmyadmin_extension__errors_log: (0)
+wp_wpdatacharts: (1)
+wp_wpdatatables: (4)
+wp_wpdatatables_columns: (32)
+wp_wpdatatables_rows: (0)
+wp_wpforms_tasks_meta: (15)
+wpstg0_actionscheduler_actions: (11)
+wpstg0_actionscheduler_claims: (0)
+wpstg0_actionscheduler_groups: (2)
+wpstg0_actionscheduler_logs: (25)
+wpstg0_ce4wp_contacts: (0)
+wpstg0_commentmeta: (0)
+wpstg0_comments: (1)
+wpstg0_duplicator_packages: (6)
+wpstg0_links: (0)
+wpstg0_options: (612)
+wpstg0_postmeta: (5926)
+wpstg0_posts: (938)
+wpstg0_snowball_articles: (0)
+wpstg0_snowball_blocks: (0)
+wpstg0_term_relationships: (17)
+wpstg0_term_taxonomy: (5)
+wpstg0_termmeta: (0)
+wpstg0_terms: (5)
+wpstg0_updraftcentral_site_temporary_keys: (0)
+wpstg0_updraftcentral_sitemeta: (0)
+wpstg0_updraftcentral_sites: (0)
+wpstg0_updraftcentral_user_cron: (1)
+wpstg0_usermeta: (29)
+wpstg0_users: (1)
+wpstg0_wpdatacharts: (0)
+wpstg0_wpdatatables: (1)
+wpstg0_wpdatatables_columns: (3)
+wpstg0_wpdatatables_rows: (0)
+wpstg0_wpforms_tasks_meta: (6)
+Removed '275' cache/transient rows
+
+INSERT DATA RUNTIME: 10.1931 sec.
+STEP-2 COMPLETE @ 05:46:01 - RUNTIME: 10.6126 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:46:13
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "HIGHSOLAR"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/opt/bitnami/wordpress"
+path_new______________: "E:/MAMP/htdocs"
+siteurl_______________: "http://localhost"
+url_old_______________: "http://solarpanelcalculator-high-woo.tk"
+url_new_______________: "http://localhost"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "aus_co2"_________________________________________[ROWS:    59][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "aus_solar_installation"__________________________[ROWS:   243][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "solar_panel"_____________________________________[ROWS:  1192][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "worldwide_co2"___________________________________[ROWS: 15694][PG:   5][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   107][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_aioseo_notifications"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_aioseo_posts"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ce4wp_contacts"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_cp_calculated_fields_form_discount_codes"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cp_calculated_fields_form_posts"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cp_calculated_fields_form_revision"___________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_cp_calculated_fields_form_settings"___________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_entry"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_entry_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_views"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url_file"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_action_meta"______________________________[ROWS:   154][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_nf3_actions"__________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_nf3_chunks"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_field_meta"_______________________________[ROWS:   436][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_nf3_fields"___________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_nf3_form_meta"________________________________[ROWS:   117][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_nf3_forms"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_nf3_object_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_objects"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_relationships"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_upgrades"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_ninja_table_items"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ns_cloner_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   682][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	ENGINE: serialize data serial check error
+	DATA: a:1:{i:1630490460291;a:22:{s:9:"cloneName";s:7:"wpclone";s:13:"directoryName";s:7:"wpclone";s:4:"path";s:31:"E:/MAMP/htdocs/wpclone/";s:3:"url";s:29:"http://18.118.209.212/wpclone";s:6:"number"; [...]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 14330][PG:   5][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  2606][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_snowball_articles"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_snowball_blocks"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_updraftcentral_site_temporary_keys"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_updraftcentral_sitemeta"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_updraftcentral_sites"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_updraftcentral_user_cron"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_wp_phpmyadmin_extension__errors_log"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdatacharts"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_wpdatatables"_________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_wpdatatables_columns"_________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_wpdatatables_rows"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_actionscheduler_actions"__________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_actionscheduler_claims"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_actionscheduler_groups"___________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_actionscheduler_logs"_____________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_ce4wp_contacts"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_commentmeta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_comments"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_duplicator_packages"______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_links"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_options"__________________________________[ROWS:   612][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_postmeta"_________________________________[ROWS:  5926][PG:   2][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_posts"____________________________________[ROWS:   938][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_snowball_articles"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_snowball_blocks"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_term_relationships"_______________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_term_taxonomy"____________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_termmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_terms"____________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_updraftcentral_site_temporary_keys"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_updraftcentral_sitemeta"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_updraftcentral_sites"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_updraftcentral_user_cron"_________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_usermeta"_________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_users"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_wpdatacharts"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_wpdatatables"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_wpdatatables_columns"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wpstg0_wpdatatables_rows"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_wpforms_tasks_meta"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\wordpress" ==========================> "E:/MAMP/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\wordpress" =======================> "E:\/MAMP\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Cwordpress" ====================> "E%3A%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH  8:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH  9:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 10:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 11:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//www.solarpanelcalculator-high-woo.tk" ==========> "//localhost"
+	SEARCH 23:"\/\/www.solarpanelcalculator-high-woo.tk" ========> "\/\/localhost"
+	SEARCH 24:"%2F%2Fwww.solarpanelcalculator-high-woo.tk" ======> "%2F%2Flocalhost"
+	SEARCH 25:"//solarpanelcalculator-high-woo.tk" ==============> "//localhost"
+	SEARCH 26:"\/\/solarpanelcalculator-high-woo.tk" ============> "\/\/localhost"
+	SEARCH 27:"%2F%2Fsolarpanelcalculator-high-woo.tk" ==========> "%2F%2Flocalhost"
+	SEARCH 28:"https://localhost" ===============================> "http://localhost"
+	SEARCH 29:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 30:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+--------------------------------------
+SCANNED:	Tables:87 	|	 Rows:43449 	|	 Cells:255125 
+UPDATED:	Tables:11 	|	 Rows:2537 	|	 Cells:3521 
+ERRORS:		1 
+RUNTIME:	2.382900 sec
+--------------------------------------
+DATA-REPLACE ERRORS (Serialization):
+ENGINE: serialize data serial check error
+	DATA: a:1:{i:1630490460291;a:22:{s:9:"cloneName";s:7:"wpclone";s:13:"directoryName";s:7:"wpclone";s:4:"path";s:31:"E:/MAMP/htdocs/wpclone/";s:3:"url";s:29:"http://18.118.209.212/wpclone";s:6:"number"; [...]
+	TABLE:wp_options COLUMN: option_value WHERE: `option_id` = "21380"
+
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost"
+	UPDATE WP_SITEURL "http://localhost"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:46:16 - RUNTIME: 2.5377 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] SERIALIZATION NOTICES  (1)
+	SECTIONS: search_replace
+	LONG MSG:             Notices should be ignored unless issues are found after you have tested an installed site.  The SQL below will show data that may have not been
+            updated during the serialization process.  Best practices for serialization notices is to just re-save the plugin/post/page in question.
+
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] DATA-REPLACE ERROR: Serialization
+	SECTIONS: search_replace
+	LONG MSG: ENGINE: serialize data serial check error
+	DATA: a:1:{i:1630490460291;a:22:{s:9:"cloneName";s:7:"wpclone";s:13:"directoryName";s:7:"wpclone";s:4:"path";s:31:"E:/MAMP/htdocs/wpclone/";s:3:"url";s:29:"http://18.118.209.212/wpclone";s:6:"number"; [...]
+	TABLE:wp_options COLUMN: option_value WHERE: `option_id` = "21380"
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

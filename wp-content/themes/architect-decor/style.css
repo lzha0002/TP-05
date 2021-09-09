@@ -1,0 +1,87 @@
+/*
+Theme Name: Architect Decor
+Theme URI: https://themearile.com/architect-decor-theme/
+Template: designexo
+Author: ThemeArile
+Author URI: https://themearile.com
+Description: Architect Decor is a modern multipurpose WordPress theme for architecture and interior design business websites. It is the most demanding WordPress theme because the theme comes with an amazing design layout for interior and architecture designers. It also helps you to take your business to the next dream level. The theme perfectly suited for architecture, interior design, decoration, business, furniture, home decor, construction, corporate, agency, business promotion, industries, beauty & spa salons, photography, gym, restaurant, blog, travel agency, and many other websites compatible, You will have lots of options to consider. As well as sophisticated plus it has some exotic features like customization and clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and theme info area besides being Mobile-ready, translation ready (WPML, Polylang) and it's built to be beautiful on all screen sizes. This theme supports the best Elementor page builder to create, edit, and updates page designs as per the requirement. Architect Decor also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, Google Analytics, and much more. Check the demo of Designexo Pro https://themearile.com/designexo-pro-theme/.
+Version: 1.7
+Tested up to: 5.7
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: architect-decor
+Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+*/
+
+/*--------------------------------------------------
+=>> Body Custom Background Css
+--------------------------------------------------*/
+
+body.custom-background .theme-bg-dark,
+body.custom-background .theme-bg-default, 
+body.custom-background .theme-blog.theme-bg-grey {
+    background-color: transparent !important;
+}
+
+/*--------------------------------------------------
+=>> Page Header Area
+--------------------------------------------------*/
+
+.theme-page-header-area {
+    padding: 7.9375rem 0 7.9375rem 0;
+}
+
+/*--------------------------------------------------
+=>> Slider Section
+--------------------------------------------------*/
+
+.theme-main-slider .overlay {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*--------------------------------------------------
+=>> Service Section
+--------------------------------------------------*/
+
+.theme-services .service-title, .service-content p, .service-links, .service-content-thumbnail {
+    text-align: center;
+}
+
+/*--------------------------------------------------
+=>> Testimonial Section
+--------------------------------------------------*/
+
+.theme-testimonial-overlay {
+    background-color: rgba(0,0,0,0.6) !important;
+}
+/*--------------------------------------------------
+=>> Blog Section
+--------------------------------------------------*/
+.entry-content {
+    overflow: unset;
+}
+
+/*Table Color Styles*/
+table, th, td { border: 1px solid #333; }
+thead th { border-bottom: 2px solid #333; }
+th { background: #202020; color: #fff; }
+/*wp-block-calendar*/
+.wp-block-calendar table.wp-calendar-table th {
+	background: #202020;
+}
+.wp-block-calendar tbody td, .wp-block-calendar th {
+	border: 1px solid #333;
+}
+.wp-block-calendar tbody td {
+	color: #ddd;
+}
+
+/*-----------------------------------------------------
+=>> Sidebar Widget Style Css According to WordPress 5.8
+-----------------------------------------------------*/
+
+.sidebar .widget .wp-block-group .wp-block-media-text {
+    padding: 1.563rem 1.000rem 1.563rem;
+}
+
