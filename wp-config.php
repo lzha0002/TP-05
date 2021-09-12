@@ -41,22 +41,22 @@
 
 /** The name of the database for WordPress */
 
-define( 'DB_NAME', 'bitnami_wordpress' );
+define( 'DB_NAME', "wp" );
 
 
 /** MySQL database username */
 
-define( 'DB_USER', 'bn_wordpress' );
+define( 'DB_USER', "root" );
 
 
 /** MySQL database password */
 
-define( 'DB_PASSWORD', '835729899844d6bc67e6c86022da95f2a76a2e2ba8b2e0e3a6ddc57bcd701b2f' );
+define( 'DB_PASSWORD', "root" );
 
 
 /** MySQL hostname */
 
-define( 'DB_HOST', 'localhost:3306' );
+define( 'DB_HOST', "localhost" );
 
 
 /** Database charset to use in creating database tables. */
@@ -170,8 +170,13 @@ if ( defined( 'WP_CLI' ) ) {
 	$_SERVER['HTTP_HOST'] = '127.0.0.1';
 }
 
-define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/' );
-define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/' );
+<<<<<<< Updated upstream
+define( 'WP_HOME', 'http://localhost' );
+define( 'WP_SITEURL', 'http://localhost' );
+=======
+define( 'WP_HOME', 'http://localhost/iteration_2' );
+define( 'WP_SITEURL', 'http://localhost/iteration_2' );
+>>>>>>> Stashed changes
 define( 'WP_AUTO_UPDATE_CORE', 'minor' );
 /* That's all, stop editing! Happy publishing. */
 

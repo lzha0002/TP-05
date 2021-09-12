@@ -1,0 +1,25 @@
+<<<<<<< Updated upstream
+#This Apache config file was created by Duplicator Installer on 2021-09-09 17:46:13.
+=======
+#This Apache config file was created by Duplicator Installer on 2021-09-12 17:39:01.
+>>>>>>> Stashed changes
+#The original can be found in archived file with the name .htaccess__[HASH]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+<<<<<<< Updated upstream
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+=======
+RewriteBase /iteration_2/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /iteration_2/index.php [L]
+>>>>>>> Stashed changes
+</IfModule>
+# END WordPress
