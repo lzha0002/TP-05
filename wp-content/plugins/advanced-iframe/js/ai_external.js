@@ -1,6 +1,10 @@
 /**
  *  Advanced iframe external workaround file v2021.x free 
+<<<<<<< Updated upstream
  *  Created: 2021-09-09 15:19:05  
+=======
+ *  Created: 2021-09-12 05:26:35  
+>>>>>>> Stashed changes
 */ 
 
 

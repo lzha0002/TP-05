@@ -170,8 +170,13 @@ if ( defined( 'WP_CLI' ) ) {
 	$_SERVER['HTTP_HOST'] = '127.0.0.1';
 }
 
+<<<<<<< Updated upstream
 define( 'WP_HOME', 'http://localhost' );
 define( 'WP_SITEURL', 'http://localhost' );
+=======
+define( 'WP_HOME', 'http://localhost/iteration_2' );
+define( 'WP_SITEURL', 'http://localhost/iteration_2' );
+>>>>>>> Stashed changes
 define( 'WP_AUTO_UPDATE_CORE', 'minor' );
 /* That's all, stop editing! Happy publishing. */
 
